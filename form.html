@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+
+    <style>
+
+        .main{
+            width:100%;
+            height:100vh;
+            background-color:black;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .reg{
+            height:auto;
+            width:350px;
+            background-image:url("https://imgs.search.brave.com/z5oLGY7IwQFNSb3Jl2k2vbAcOFfpbRkDP4cu6aWzh1U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjky/MjQzODU4L3Bob3Rv/L2V4b3BsYW5ldC1p/bi1kZWVwLXNwYWNl/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1LUTdCM1JJOF9E/M3FlRDA2UnRFN0l1/RXlpREhuTEdEZy1I/cXA4RmU4UFhVPQ");
+            color:white;
+            display:flex;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            /*flex-direction: column;*/
+            flex-flow: column;
+            padding: 50px 70px;
+            gap: 5px;
+        }
+        .reg>input,button {
+            width:100%;
+            padding: 7px;
+            outline: none;
+            border: none;
+            color: white;
+            background: none;
+            border-bottom: 1px solid white;
+        }
+
+
+        .reg>button {
+            width:100%;
+            padding: 7px;
+            border: none;
+            color: red;
+            background-color: black;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <form action="" class="reg">
+
+            <label for="">Full Name</label>
+            <input type="text" placeholder="Enter your full name">
+
+            <label for="">Email Address</label>
+            <input type="text" placeholder="Enter your email">
+
+            <label for="">Password</label>
+            <input type="password">
+
+            <label for="">Confirm Password</label>
+            <input type="password">
+
+            <label for="">Phone Number</label>
+            <input type="text">
+
+            <div>
+                <label for="">Gender</label>
+
+            <label for="">Female</label>
+            <input type="radio" name="gender">
+
+            <label for="">Male</label>
+            <input type="radio" name="gender">
+
+            <label for="">Others</label>
+            <input type="radio" name="gender">
+            </div>
+
+            <label for="">Date Of Birth</label>
+            <input type="date">
+
+            <label for="">Country</label>
+            <select name ="" id ="">
+                <option value="">India</option>
+                <option value="">USA</option>
+                <option value="">UAE</option>
+                <option value="">UK</option>
+                <option value="">Pakisthan</option>
+            </select>
+
+            <p><input type="checkbox"> I agree to the terms and conditions</p>
+            <button>REG</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
